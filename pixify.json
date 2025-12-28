@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "description": "High-performance image optimizer and converter",
     "homepage": "https://github.com/Mahammed-Gaber/Pixify-Pro",
-    "license": "MIT",
+    "license": "EULA",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Mahammed-Gaber/Pixify-Pro/releases/download/v1.0.0/pixify-windows-amd64.zip",
