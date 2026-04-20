@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "description": "High-performance image optimizer and converter (Pro edition). Requires a valid license.",
+    "homepage": "https://github.com/Mahammed-Gaber/pixify",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://getpixify.com/eula"
+    },
+    "notes": "Pro requires a license key (https://getpixify.com/pricing). libvips on PATH: (1) Official script — irm https://raw.githubusercontent.com/Mahammed-Gaber/pixify/main/install-vips.ps1 | iex (default under %USERPROFILE%\\.pixify\\vips). (2) Or Scoop extras/vips — different path than (1), PATH via Scoop shims. Docs: https://github.com/Mahammed-Gaber/pixify/blob/main/docs/install-libvips.md",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mahammed-Gaber/pixify/releases/download/v1.0.0/Pixify-Pro-Windows-v1.0.0.zip",
+            "hash": "51c1cef405910dd2349ccfe83a52ef3c6dc4bd3f1c2f703caf80846cb1478857",
+            "bin": [
+                [
+                    "pixify-pro.exe",
+                    "pixify-pro"
+                ]
+            ]
+        }
+    },
+    "suggest": {
+        "vips": "extras/vips"
+    },
+    "checkver": {
+        "github": "Mahammed-Gaber/pixify"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mahammed-Gaber/pixify/releases/download/v$version/Pixify-Pro-Windows-v$version.zip"
+            }
+        }
+    }
+}
