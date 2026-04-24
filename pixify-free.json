@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Mahammed-Gaber/pixify/releases/download/v1.0.0/Pixify-Free-Windows-v1.0.0.zip",
-            "hash": "76ae32bda2da4bca479abf25de79c317b8556f1906cc699e8ab57624dd67ba74",
+            "hash": "47bd668035ebe687f148c166baa545bc50ad1a9ae1d7d4dac4c23e2e5853e38d",
             "bin": [
                 [
                     "pixify-free.exe",
@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Mahammed-Gaber/pixify/releases/download/v$version/Pixify-Free-Windows-v$version.zip"
+                "url": "https://github.com/Mahammed-Gaber/pixify/releases/download/v1.0.0/Pixify-Free-Windows-v1.0.0.zip"
             }
         }
     }
