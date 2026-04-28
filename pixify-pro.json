@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Mahammed-Gaber/pixify/releases/download/v1.0.0/Pixify-Pro-Windows-v1.0.0.zip",
-            "hash": "a16c2efae32bdc852096cad81e52f04c4ef9de9e4e57b00ec38fee2ffb2efcad",
+            "hash": "3714e55d2bf3154c58b5ddf3ab7417a5ee2bd7c43e8b3fef7dca36292cb1c557",
             "bin": [
                 [
                     "pixify-pro.exe",
